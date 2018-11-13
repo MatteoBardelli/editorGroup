@@ -16,10 +16,5 @@ namespace EditorGroup
         {
             InitializeComponent();
         }
-
-        private void salvaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

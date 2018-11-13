@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,20 +61,22 @@
             // salvaToolStripMenuItem
             // 
             this.salvaToolStripMenuItem.Name = "salvaToolStripMenuItem";
-            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salvaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.salvaToolStripMenuItem.Text = "Apri";
-            this.salvaToolStripMenuItem.Click += new System.EventHandler(this.salvaToolStripMenuItem_Click);
             // 
             // salvaToolStripMenuItem1
             // 
             this.salvaToolStripMenuItem1.Name = "salvaToolStripMenuItem1";
-            this.salvaToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.salvaToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.salvaToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
             this.salvaToolStripMenuItem1.Text = "Salva";
             // 
             // indentaToolStripMenuItem
             // 
             this.indentaToolStripMenuItem.Name = "indentaToolStripMenuItem";
-            this.indentaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.indentaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
+            this.indentaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.indentaToolStripMenuItem.Text = "Indenta";
             // 
             // richTextBox1
@@ -91,9 +94,12 @@
             this.ClientSize = new System.Drawing.Size(446, 380);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Editor di gruppo";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
