@@ -13,6 +13,7 @@ namespace EditorGroup
 {
     public partial class Form1 : Form
     {
+        string filename = null;
         public Form1()
         {
             InitializeComponent();
@@ -20,7 +21,14 @@ namespace EditorGroup
 
         private void salva()
         {
-
+            if(filename != null)
+            {
+                File.WriteAllText(filename, richTextBox1.Text);
+            }
+            else
+            {
+                MessageBox.Show("Selezionare un file");
+            }
 
         }
         private void indenta()
@@ -41,12 +49,11 @@ namespace EditorGroup
                 DialogResult result = openFileDialog.ShowDialog(); // Show the dialog.
                 if (result == DialogResult.OK) // Test result.
                 {
-                    
-                    
+  
                     try
                     {
-
-                        richTextBox1.Text = File.ReadAllText(openFileDialog.FileName);
+                        filename = openFileDialog.FileName;
+                        richTextBox1.Text = File.ReadAllText(filename);
                     }
                     catch (IOException e)
                     {
