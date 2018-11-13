@@ -34,8 +34,8 @@
             this.salvaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.indentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +66,7 @@
             this.salvaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.salvaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.salvaToolStripMenuItem.Text = "Apri";
+            this.salvaToolStripMenuItem.Click += new System.EventHandler(this.salvaToolStripMenuItem_Click);
             // 
             // salvaToolStripMenuItem1
             // 
@@ -83,6 +84,11 @@
             this.indentaToolStripMenuItem.Text = "Indenta";
             this.indentaToolStripMenuItem.Click += new System.EventHandler(this.indentaToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 20);
+            // 
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 27);
@@ -90,11 +96,6 @@
             this.richTextBox1.Size = new System.Drawing.Size(422, 341);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(94, 20);
             // 
             // Form1
             // 
