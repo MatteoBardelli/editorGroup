@@ -34,7 +34,6 @@
             this.salvaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.indentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            //this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -83,11 +82,6 @@
             this.indentaToolStripMenuItem.Text = "Indenta";
             this.indentaToolStripMenuItem.Click += new System.EventHandler(this.indentaToolStripMenuItem_Click);
             // 
-            // toolStripMenuItem1
-            // 
-            //this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            //this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 20);
-            // 
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 27);
@@ -107,6 +101,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(462, 418);
+            this.MinimumSize = new System.Drawing.Size(462, 418);
             this.Name = "Form1";
             this.Text = "Editor di gruppo";
             this.menuStrip1.ResumeLayout(false);
