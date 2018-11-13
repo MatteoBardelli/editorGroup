@@ -34,13 +34,15 @@
             this.salvaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.indentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(446, 24);
@@ -69,12 +71,14 @@
             this.salvaToolStripMenuItem1.Name = "salvaToolStripMenuItem1";
             this.salvaToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.salvaToolStripMenuItem1.Text = "Salva";
+            this.salvaToolStripMenuItem1.Click += new System.EventHandler(this.salvaToolStripMenuItem1_Click);
             // 
             // indentaToolStripMenuItem
             // 
             this.indentaToolStripMenuItem.Name = "indentaToolStripMenuItem";
             this.indentaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.indentaToolStripMenuItem.Text = "Indenta";
+            this.indentaToolStripMenuItem.Click += new System.EventHandler(this.indentaToolStripMenuItem_Click);
             // 
             // richTextBox1
             // 
@@ -83,6 +87,11 @@
             this.richTextBox1.Size = new System.Drawing.Size(422, 341);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(94, 20);
             // 
             // Form1
             // 
@@ -109,6 +118,7 @@
         private System.Windows.Forms.ToolStripMenuItem salvaToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem indentaToolStripMenuItem;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
 

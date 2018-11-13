@@ -16,10 +16,33 @@ namespace EditorGroup
         {
             InitializeComponent();
         }
+        private void salva()
+        {
+
+
+        }
+        private void indenta()
+        {
+
+        }
+        private void Apri()
+        {
+
+        }
 
         private void salvaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Apri();
+        }
 
+        private void salvaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            salva();
+        }
+
+        private void indentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            indenta();
         }
     }
 }
