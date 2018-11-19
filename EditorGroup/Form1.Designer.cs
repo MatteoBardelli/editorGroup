@@ -62,7 +62,7 @@
             // 
             this.salvaToolStripMenuItem.Name = "salvaToolStripMenuItem";
             this.salvaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salvaToolStripMenuItem.Text = "Apri";
             this.salvaToolStripMenuItem.Click += new System.EventHandler(this.salvaToolStripMenuItem_Click);
             // 
@@ -70,17 +70,17 @@
             // 
             this.salvaToolStripMenuItem1.Name = "salvaToolStripMenuItem1";
             this.salvaToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.salvaToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.salvaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.salvaToolStripMenuItem1.Text = "Salva";
             this.salvaToolStripMenuItem1.Click += new System.EventHandler(this.salvaToolStripMenuItem1_Click);
             // 
             // indentaToolStripMenuItem
             // 
+            this.indentaToolStripMenuItem.CheckOnClick = true;
             this.indentaToolStripMenuItem.Name = "indentaToolStripMenuItem";
             this.indentaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.indentaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.indentaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.indentaToolStripMenuItem.Text = "Indenta";
-            this.indentaToolStripMenuItem.Click += new System.EventHandler(this.indentaToolStripMenuItem_Click);
             // 
             // richTextBox1
             // 
@@ -94,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(446, 380);
+            this.ClientSize = new System.Drawing.Size(446, 379);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
